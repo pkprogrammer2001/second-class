@@ -1,5 +1,26 @@
 *{
     padding: 0%;
     margin: auto;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Roboto";
+}
+#btn1{
+    color: maroon;
+    font-size: 20px;
+    background-color: rgb(98, 255, 98);
+    outline: none;
+    padding: 7px 45px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.btn2{
+    
+    font-size: 18px;
+    background-color: rgb(220, 219, 219);
+    outline: none;
+    padding: 5px 60px;
+    border-radius: 12px;
+    border: 2px solid black;
+    cursor: pointer;
+    text-transform: uppercase;
 }
