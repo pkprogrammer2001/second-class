@@ -16,5 +16,20 @@
     alert('item has been added to Wishlist'); ">❤️ Wishlist</button> <br>
     <br> <hr>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, voluptatem!</p>
+    <br>
+    <br>
+    <hr>
+    <hr>
+    <br>
+    <button id="btn1" onclick="quantity++;
+    document.querySelector('#itemQuantity').innerHTML = `Your bag has ${quantity} item`; ">Add to Bag</button>
+    <button class="btn2" onclick=" quantity--;
+    document.querySelector('#itemQuantity').innerHTML = `Your bag has ${quantity} item`; ">moved to Wishlist</button>
+    <button id="btn1" onclick="quantity +=2;
+    document.querySelector('#itemQuantity').innerHTML = `Your bag has ${quantity} item`; ">Add 1+1 Sale Item</button> <br><br>
+    <h1 id='itemQuantity'></h1>
+    <br>
+    <br> <hr>
+    <script src="./script.js"></script>
 </body>
 </html>
